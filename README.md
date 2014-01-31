@@ -23,3 +23,7 @@ And finally:
 	coffee index.coffee path/to/log.hsl
 	
 The JSON output will be printed to stdout.
+
+## License
+
+This code is released under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US). You may not use it for commercial purposes. Anything else is fine!
