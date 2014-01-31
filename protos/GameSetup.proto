@@ -1,0 +1,8 @@
+import "protos/ClientInfo.proto";
+
+message GameSetup {
+	required string board = 1;
+	repeated ClientInfo clients = 2;
+	required int32 max_secrets_per_player = 3;
+	required int32 max_minions_per_player = 4;
+}

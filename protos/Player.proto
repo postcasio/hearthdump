@@ -1,0 +1,8 @@
+import "protos/BnetId.proto";
+import "protos/Entity.proto";
+
+message Player {
+	required int32 id = 1;
+	required BnetId accountId = 2;
+	required Entity entity = 4;
+}

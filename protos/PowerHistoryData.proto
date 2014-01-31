@@ -1,0 +1,18 @@
+import "protos/PowerHistoryEntity.proto";
+import "protos/PowerHistoryHide.proto";
+import "protos/PowerHistoryTagChange.proto";
+import "protos/PowerHistoryCreateGame.proto";
+import "protos/PowerHistoryStart.proto";
+import "protos/PowerHistoryEnd.proto";
+import "protos/PowerHistoryMetaData.proto";
+
+message PowerHistoryData {
+	optional PowerHistoryEntity full_entity = 1;
+	optional PowerHistoryEntity show_entity = 2;
+	optional PowerHistoryHide hide_entity = 3;
+	optional PowerHistoryTagChange tag_change = 4;
+	optional PowerHistoryCreateGame create_game = 5;
+	optional PowerHistoryStart power_start = 6;
+	optional PowerHistoryEnd power_end = 7;
+	optional PowerHistoryMetaData metadata = 8;
+}
